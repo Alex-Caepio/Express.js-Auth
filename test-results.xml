@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.002" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2023-02-03T14:56:28" tests="0" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="User test" timestamp="2023-02-03T14:56:28" tests="0" file="/home/aleksei/Desktop/Practice/project 1/test/basicTest.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="#signUpUser" timestamp="2023-02-03T14:56:28" tests="1" file="/home/aleksei/Desktop/Practice/project 1/test/basicTest.js" time="0.002" failures="1">
+    <testcase name="User test #signUpUser should create a new user" time="0.000" classname="should create a new user">
+      <failure message="Cannot use &apos;in&apos; operator to search for &apos;status&apos; in undefined" type="TypeError"><![CDATA[TypeError: Cannot use 'in' operator to search for 'status' in undefined
+    at Proxy.<anonymous> (node_modules/chai-http/lib/http.js:80:38)
+    at Proxy.methodWrapper (node_modules/chai/lib/chai/utils/addMethod.js:57:25)
+    at Context.<anonymous> (file:///home/aleksei/Desktop/Practice/project%201/test/basicTest.js:21:27)
+    at process.processImmediate (node:internal/timers:475:21)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
